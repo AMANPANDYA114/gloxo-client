@@ -79,7 +79,7 @@ const nav=`<header id="hd"><div class="wrap nav">
 <a href="index.html">Home</a><a href="about.html">About Us</a>
 ${dd('Services','services.html','<a href="services.html">All Services</a>'+SV.map(k=>`<a href="${k}.html">${PAGES[k].i} ${PAGES[k].t}</a>`).join(''))}
 ${dd('Our Panels','#',PN.map(k=>`<a href="${k}.html">${PAGES[k].i} ${PAGES[k].t}</a>`).join(''))}
- ${dd('Join Our Panels','#',['Galxoopinion Research surveys','EraHealthOpinions','EraRewards'].map((n,i)=>`<a href="${i===0?'https://chic-dieffenbachia-d1e0a6.netlify.app/':'#'}" ${i===0?'':'data-nl'}><b>${i+1}</b> ${n}</a>`).join(''),'r')}
+ ${dd('Join Our Panels','#',['Galxoopinion Research surveys','EraHealthOpinions','EraRewards'].map((n,i)=>`<a href="${i===0?'https://gloxo-survey.vercel.app/':'#'}" ${i===0?'':'data-nl'}><b>${i+1}</b> ${n}</a>`).join(''),'r')}
 <a href="industries.html">Industries</a><a href="contact.html">Contact</a>
 <a href="contact.html" class="btn btn-p">Enquire Today</a></nav></div></header><div class="ov" id="ov"></div>`;
 const foot=`${key==='home'?`<section style="padding-top:20px"><div class="wrap"><div class="cta-b"><h2>Let's Turn Your Questions Into Insights</h2><p>Tell us about your research needs and get a proposal within 24 hours.</p><a href="contact.html" class="btn btn-p">Enquire Today</a></div></div></section>`:''}
