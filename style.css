@@ -251,15 +251,15 @@ footer a{display:block;margin-bottom:9px;font-size:.92rem;transition:.2s}footer 
 .pd-sec{margin-top:34px}
 @media(max-width:768px){.pd-grid{grid-template-columns:1fr}.pd ul.ticks{columns:1}}
 
-/* ===== Logoss text: never wrap, scale down on smaller screens ===== */
+/* ===== Logo text:ss never wrap, scale down on smaller screens ===== */
 .logo{white-space:nowrap;flex-shrink:0;line-height:1}
 .logo i{flex-shrink:0}
-@media(max-width:1200px){.logo{font-size:1.3rem}.logo i{width:32px;height:32px;font-size:1rem}}
+@media(max-width:1200px){.logo{font-size:1.4rem}.logo i{width:34px;height:34px;font-size:1.05rem}}
 @media(max-width:992px){
- .logo{font-size:1.05rem;gap:6px}.logo i{width:28px;height:28px;font-size:.9rem;border-radius:8px}
+ .logo{font-size:1.25rem;gap:7px}.logo i{width:32px;height:32px;font-size:1rem;border-radius:9px}
  .menu{gap:12px}.menu a{font-size:.8rem}
 }
-@media(max-width:768px){.logo{font-size:1rem}.nav{gap:10px}}
-@media(max-width:600px){.logo{font-size:.9rem;gap:6px}.logo i{width:26px;height:26px;font-size:.85rem}}
-@media(max-width:420px){.logo{font-size:.78rem;gap:5px}.logo i{width:24px;height:24px;font-size:.8rem}.burger{font-size:1.6rem}}
-@media(max-width:340px){.logo{font-size:.68rem}.logo i{width:22px;height:22px}}
+@media(max-width:768px){.logo{font-size:1.2rem}.nav{gap:10px}}
+@media(max-width:600px){.logo{font-size:1.1rem;gap:7px}.logo i{width:30px;height:30px;font-size:.95rem}}
+@media(max-width:420px){.logo{font-size:.95rem;gap:6px}.logo i{width:26px;height:26px;font-size:.85rem}.burger{font-size:1.6rem}}
+@media(max-width:340px){.logo{font-size:.82rem}.logo i{width:24px;height:24px}}
