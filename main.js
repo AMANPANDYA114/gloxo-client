@@ -70,7 +70,7 @@ if(d&&PD[key]&&$('pg')){const p=PD[key];
  ${p.boxes?`<div class="pd-grid">${p.boxes.map(b=>`<div class="pd-box"><h3>${b[0]}</h3>${b[1]?`<p>${b[1]}</p>`:''}${ul(b[2])}${b[3]?`<p>${b[3]}</p>`:''}</div>`).join('')}<div class="pd-box"${p.boxes.length%2===0?' style="grid-column:1/-1"':''}><h3>Quality &amp; Security Checks</h3><ul class="ticks">${QC.map(x=>`<li>${x}</li>`).join('')}</ul></div></div>`:''}
  ${(p.secs||[]).map(s=>`<div class="pd-sec"><h3>${s[0]}</h3>${s[1]?`<p>${s[1]}</p>`:''}${ul(s[2])}${s[3]?`<p>${s[3]}</p>`:''}</div>`).join('')}</div></section>`}
 
-/* ===== Header and footer ===== */
+/* ===== Header and footer ===== ssss*/
 const dd=(l,h,i,c='')=>`<div class="dd ${c}"><a href="${h}" class="dd-t">${l} <span>▾</span></a><div class="dd-list">${i}</div></div>`;
 const nav=`<header id="hd"><div class="wrap nav">
 <a href="index.html" class="logo"><i>◎</i>Galxoopinion Research</a>
