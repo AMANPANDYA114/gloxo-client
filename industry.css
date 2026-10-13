@@ -1,0 +1,44 @@
+/* ===== Industries page ===== */
+.ind-intro{max-width:900px;text-align:center}
+.ind-intro p{color:var(--muted);margin-bottom:14px}
+.ind-intro .ind-lead{color:var(--ink);font-weight:600;font-size:1.05rem}
+.ind-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:34px;background:#fff;border:1px solid var(--line);border-radius:22px;padding:28px 20px;box-shadow:0 20px 50px rgba(15,118,110,.12)}
+.ind-stats b{display:block;font-size:1.8rem;font-weight:800;color:var(--p)}
+.ind-stats span{color:var(--muted);font-size:.88rem}
+.ind-navsec{padding:70px 0}
+.ind-nav{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:30px}
+.ind-nav a{padding:9px 18px;border:1px solid var(--line);background:var(--bg);border-radius:50px;font-size:.85rem;font-weight:500;color:var(--ink);transition:.25s}
+.ind-nav a:hover{background:var(--p);border-color:var(--p);color:#fff;transform:translateY(-2px)}
+.ind-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.ind-card{position:relative;background:#fff;border:1px solid var(--line);border-radius:22px;padding:34px 30px;box-shadow:0 8px 24px rgba(15,118,110,.07);transition:.3s;scroll-margin-top:96px}
+.ind-card:hover{transform:translateY(-6px);box-shadow:0 22px 44px rgba(15,118,110,.14)}
+.ind-card:target{border-color:var(--p2);box-shadow:0 0 0 3px rgba(20,184,166,.25)}
+.ind-n{position:absolute;right:24px;top:14px;font-size:2.8rem;font-weight:800;color:#e6f2ee;line-height:1}
+.ind-card h3{font-size:1.3rem;color:var(--p);padding-right:60px;margin-bottom:4px}
+.ind-card h4{font-size:1rem;font-weight:600;margin-bottom:12px}
+.ind-card>p{color:var(--muted);font-size:.92rem;margin-bottom:10px}
+.ind-sub{margin:18px 0 10px;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--a)}
+.ind-ra{list-style:none;columns:2;column-gap:20px}
+.ind-ra li{position:relative;padding-left:16px;margin-bottom:6px;font-size:.88rem;color:var(--muted);break-inside:avoid}
+.ind-ra li:before{content:"";position:absolute;left:0;top:.6em;width:6px;height:6px;border-radius:50%;background:var(--p2)}
+.ind-card .ind-aud{background:#f1faf7;border-left:3px solid var(--p2);border-radius:10px;padding:12px 14px;color:var(--ink);font-size:.88rem;margin-bottom:0}
+.ind-card .ind-note{margin-top:12px;margin-bottom:0;font-size:.8rem;font-style:italic;color:var(--muted)}
+.ind-reach{display:grid;grid-template-columns:repeat(4,1fr);gap:26px;margin-top:46px;text-align:left}
+.ind-rb{background:var(--bg);border:1px solid var(--line);border-radius:22px;padding:30px 24px;transition:.3s}
+.ind-rb:hover{transform:translateY(-8px);box-shadow:0 22px 44px rgba(15,118,110,.14)}
+.ind-rb .ic{margin:0 0 14px}
+.ind-rb h3{font-size:1.05rem;margin-bottom:12px}
+.ind-rb ul{list-style:none}
+.ind-rb li{position:relative;padding-left:22px;margin-bottom:8px;font-size:.88rem;color:var(--muted)}
+.ind-rb li:before{content:"✓";position:absolute;left:0;top:1px;width:15px;height:15px;border-radius:50%;background:var(--p);color:#fff;font-size:.55rem;display:grid;place-items:center}
+.ind-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:46px;text-align:left}
+.ind-step{background:#fff;border:1px solid var(--line);border-radius:22px;padding:30px 26px;transition:.3s}
+.ind-step:hover{transform:translateY(-8px);box-shadow:0 22px 44px rgba(15,118,110,.14)}
+.ind-step span{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:var(--p);color:#fff;font-weight:700;margin-bottom:14px}
+.ind-step h3{font-size:1.1rem;margin-bottom:6px}
+.ind-step p{color:var(--muted);font-size:.92rem}
+.ind-foot{margin-top:30px;color:var(--muted);font-size:.9rem;font-style:italic}
+.cta-b .ind-sig{margin-top:26px;margin-bottom:0;font-size:.9rem}
+.cta-b .ind-sig b{color:#fff}
+@media(max-width:992px){.ind-grid{grid-template-columns:1fr}.ind-reach{grid-template-columns:1fr 1fr}.ind-steps{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.ind-stats,.ind-reach,.ind-steps{grid-template-columns:1fr}.ind-ra{columns:1}.ind-card{padding:28px 22px}}
